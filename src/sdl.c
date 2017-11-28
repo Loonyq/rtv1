@@ -1,8 +1,7 @@
 #include "../include/rtv1.h"
 
-int 	initSdl(t_main **data)
+int 	initSdlSurface(t_main *data)
 {
-	SDL_Renderer *renderer;
 	SDL_Event event;
 
 	if (SDL_Init(SDL_INIT_VIDEO) < 0) {
@@ -10,47 +9,60 @@ int 	initSdl(t_main **data)
 		return 3;
 	}
 
-	if (SDL_CreateWindowAndRenderer(320, 240, SDL_WINDOW_RESIZABLE, &(*data)->sdl.screen, &renderer)) {
+	if ((data->sdl.screen = SDL_CreateWindow("bob", 0, 0, W, H, SDL_WINDOW_RESIZABLE)) == NULL) {
 		SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create (*data ->sdl.screenand renderer: %s", SDL_GetError());
 		return 3;
 	}
 
-//	surface = SDL_LoadBMP("sample.bmp");
-//	if (!surface) {
-//		SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create surface from image: %s", SDL_GetError());
-//		return 3;
-//	}
-//	texture = SDL_CreateTextureFromSurface(renderer, surface);
-//	if (!texture) {
-//		SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create texture from surface: %s", SDL_GetError());
-//		return 3;
-//	}
-//	SDL_FreeSurface(surface);
-
+	if ((data->sdl.data_sf = SDL_GetWindowSurface(data->sdl.screen)) == NULL)
+	{
+		SDL_Log("SDL_CreateRGBSurfaceWithFormat() failed: %s", SDL_GetError());
+		exit(35);
+	}
 	while (1) {
+		raySender(data);
+
 		SDL_PollEvent(&event);
 		if (event.type == SDL_QUIT) {
 			break;
 		}
-		SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0x00, 0x00);
-		SDL_RenderClear(renderer);
-//		SDL_RenderCopy(renderer, texture, NULL, NULL);
-		SDL_RenderPresent(renderer);
+////		SDL_RenderCopy(renderer, texture, NULL, NULL);
+		SDL_UpdateWindowSurface(data->sdl.screen);
 	}
 
-//	SDL_Delay(3000);
-//	SDL_DestroyTexture(texture);
-	SDL_DestroyRenderer(renderer);
-	SDL_DestroyWindow((*data)->sdl.screen);
+	SDL_DestroyWindow(data->sdl.screen);
 	return (0);
 }
 
-void	sdlLoop(t_main **data)
+int 	initSdlRender(t_main *data)
 {
-	(void)data;
-//	mlx_put_image_to_window((*data)->e.mlx, (*data)->e.win,
-//							(*data)->e.img, 0, 0);
-//	mlx_destroy_image((*data)->e.mlx, (*data)->e.img);
-//	mlx_clear_window((*data)->e.mlx, (*data)->e.win);
-//	mlx_loop((*data)->e.mlx);
+	SDL_Event event;
+
+	if (SDL_Init(SDL_INIT_VIDEO) < 0) {
+		SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't initialize SDL: %s", SDL_GetError());
+		return 3;
+	}
+
+	if (SDL_CreateWindowAndRenderer(W, H, SDL_WINDOW_RESIZABLE, &data->sdl.screen, &data->sdl.renderer)) {
+		SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create (*data ->sdl.screenand renderer: %s", SDL_GetError());
+		return 3;
+	}
+	data->sdl.data_sf = SDL_CreateRGBSurface(0, W, H, 32, RMASK, GMASK, BMASK, AMASK);
+	raySender(data);
+	data->sdl.texture = SDL_CreateTextureFromSurface(data->sdl.renderer, data->sdl.data_sf);
+//	SDL_LoadBMP("test.bmp");
+	SDL_RenderClear(data->sdl.renderer);
+	while (1) {
+		SDL_RenderPresent(data->sdl.renderer);
+		SDL_RenderClear(data->sdl.renderer);
+		SDL_PollEvent(&event);
+		if (event.type == SDL_QUIT || event.key.keysym.sym == SDLK_ESCAPE)
+			break;
+		const Uint8 *state = SDL_GetKeyboardState(NULL);
+		if (state[SDL_SCANCODE_LCTRL] && state[SDL_SCANCODE_LALT] && state[SDL_SCANCODE_DELETE])
+			break ;
+		SDL_RenderCopy(data->sdl.renderer, data->sdl.texture, NULL, NULL);
+	}
+	SDL_DestroyWindow(data->sdl.screen);
+	return (0);
 }

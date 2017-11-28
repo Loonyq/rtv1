@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ilukaino/Documents/code/c++/clion/rtv1
+CMAKE_SOURCE_DIR = /Users/ilukaino/Documents/code/c/git/rtv1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rtv1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/rtv1.dir/flags.make
 
 CMakeFiles/rtv1.dir/src/main.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtv1.dir/src/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/main.c.o   -c /Users/ilukaino/Documents/code/c++/clion/rtv1/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtv1.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/main.c.o   -c /Users/ilukaino/Documents/code/c/git/rtv1/src/main.c
 
 CMakeFiles/rtv1.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c++/clion/rtv1/src/main.c > CMakeFiles/rtv1.dir/src/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c/git/rtv1/src/main.c > CMakeFiles/rtv1.dir/src/main.c.i
 
 CMakeFiles/rtv1.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c++/clion/rtv1/src/main.c -o CMakeFiles/rtv1.dir/src/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c/git/rtv1/src/main.c -o CMakeFiles/rtv1.dir/src/main.c.s
 
 CMakeFiles/rtv1.dir/src/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/rtv1.dir/src/main.c.o.provides.build: CMakeFiles/rtv1.dir/src/main.c.
 
 CMakeFiles/rtv1.dir/src/sdl.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/sdl.c.o: ../src/sdl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtv1.dir/src/sdl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/sdl.c.o   -c /Users/ilukaino/Documents/code/c++/clion/rtv1/src/sdl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtv1.dir/src/sdl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/sdl.c.o   -c /Users/ilukaino/Documents/code/c/git/rtv1/src/sdl.c
 
 CMakeFiles/rtv1.dir/src/sdl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/sdl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c++/clion/rtv1/src/sdl.c > CMakeFiles/rtv1.dir/src/sdl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c/git/rtv1/src/sdl.c > CMakeFiles/rtv1.dir/src/sdl.c.i
 
 CMakeFiles/rtv1.dir/src/sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/sdl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c++/clion/rtv1/src/sdl.c -o CMakeFiles/rtv1.dir/src/sdl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c/git/rtv1/src/sdl.c -o CMakeFiles/rtv1.dir/src/sdl.c.s
 
 CMakeFiles/rtv1.dir/src/sdl.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/rtv1.dir/src/sdl.c.o.provides.build: CMakeFiles/rtv1.dir/src/sdl.c.o
 
 CMakeFiles/rtv1.dir/src/rednder.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/rednder.c.o: ../src/rednder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtv1.dir/src/rednder.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/rednder.c.o   -c /Users/ilukaino/Documents/code/c++/clion/rtv1/src/rednder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtv1.dir/src/rednder.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/rednder.c.o   -c /Users/ilukaino/Documents/code/c/git/rtv1/src/rednder.c
 
 CMakeFiles/rtv1.dir/src/rednder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/rednder.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c++/clion/rtv1/src/rednder.c > CMakeFiles/rtv1.dir/src/rednder.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c/git/rtv1/src/rednder.c > CMakeFiles/rtv1.dir/src/rednder.c.i
 
 CMakeFiles/rtv1.dir/src/rednder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/rednder.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c++/clion/rtv1/src/rednder.c -o CMakeFiles/rtv1.dir/src/rednder.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c/git/rtv1/src/rednder.c -o CMakeFiles/rtv1.dir/src/rednder.c.s
 
 CMakeFiles/rtv1.dir/src/rednder.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/rtv1.dir/src/rednder.c.o.provides.build: CMakeFiles/rtv1.dir/src/redn
 
 CMakeFiles/rtv1.dir/src/vec.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/vec.c.o: ../src/vec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtv1.dir/src/vec.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/vec.c.o   -c /Users/ilukaino/Documents/code/c++/clion/rtv1/src/vec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtv1.dir/src/vec.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/vec.c.o   -c /Users/ilukaino/Documents/code/c/git/rtv1/src/vec.c
 
 CMakeFiles/rtv1.dir/src/vec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/vec.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c++/clion/rtv1/src/vec.c > CMakeFiles/rtv1.dir/src/vec.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c/git/rtv1/src/vec.c > CMakeFiles/rtv1.dir/src/vec.c.i
 
 CMakeFiles/rtv1.dir/src/vec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/vec.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c++/clion/rtv1/src/vec.c -o CMakeFiles/rtv1.dir/src/vec.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c/git/rtv1/src/vec.c -o CMakeFiles/rtv1.dir/src/vec.c.s
 
 CMakeFiles/rtv1.dir/src/vec.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/rtv1.dir/src/vec.c.o.provides.build: CMakeFiles/rtv1.dir/src/vec.c.o
 
 CMakeFiles/rtv1.dir/src/ray.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/ray.c.o: ../src/ray.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtv1.dir/src/ray.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/ray.c.o   -c /Users/ilukaino/Documents/code/c++/clion/rtv1/src/ray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtv1.dir/src/ray.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/ray.c.o   -c /Users/ilukaino/Documents/code/c/git/rtv1/src/ray.c
 
 CMakeFiles/rtv1.dir/src/ray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/ray.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c++/clion/rtv1/src/ray.c > CMakeFiles/rtv1.dir/src/ray.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilukaino/Documents/code/c/git/rtv1/src/ray.c > CMakeFiles/rtv1.dir/src/ray.c.i
 
 CMakeFiles/rtv1.dir/src/ray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/ray.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c++/clion/rtv1/src/ray.c -o CMakeFiles/rtv1.dir/src/ray.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilukaino/Documents/code/c/git/rtv1/src/ray.c -o CMakeFiles/rtv1.dir/src/ray.c.s
 
 CMakeFiles/rtv1.dir/src/ray.c.o.requires:
 
@@ -195,7 +195,7 @@ rtv1: CMakeFiles/rtv1.dir/src/vec.c.o
 rtv1: CMakeFiles/rtv1.dir/src/ray.c.o
 rtv1: CMakeFiles/rtv1.dir/build.make
 rtv1: CMakeFiles/rtv1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable rtv1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable rtv1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtv1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/rtv1.dir/clean:
 .PHONY : CMakeFiles/rtv1.dir/clean
 
 CMakeFiles/rtv1.dir/depend:
-	cd /Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ilukaino/Documents/code/c++/clion/rtv1 /Users/ilukaino/Documents/code/c++/clion/rtv1 /Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug /Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug /Users/ilukaino/Documents/code/c++/clion/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ilukaino/Documents/code/c/git/rtv1 /Users/ilukaino/Documents/code/c/git/rtv1 /Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug /Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug /Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rtv1.dir/depend
 

@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/ray.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/ray.h
 vec.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/vec.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 vec.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/vec.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
 ../libft/libft.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/libft/libft.h
+/Users/ilukaino/Documents/code/c/git/rtv1/libft/libft.h
 /Users/ilukaino/Library/Frameworks/SDL2.framework/Versions/A/Headers/SDL.h
 -
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/vec.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/libft/get_next_line.h
+/Users/ilukaino/Documents/code/c/git/rtv1/libft/get_next_line.h
 stdio.h
 -
 unistd.h
@@ -30,9 +30,9 @@ fcntl.h
 stdlib.h
 -
 libft.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/libft/libft.h
+/Users/ilukaino/Documents/code/c/git/rtv1/libft/libft.h
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/libft/libft.h
+/Users/ilukaino/Documents/code/c/git/rtv1/libft/libft.h
 string.h
 -
 stdlib.h
@@ -40,29 +40,29 @@ stdlib.h
 unistd.h
 -
 get_next_line.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/libft/get_next_line.h
+/Users/ilukaino/Documents/code/c/git/rtv1/libft/get_next_line.h
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/src/main.c
+/Users/ilukaino/Documents/code/c/git/rtv1/src/main.c
 stdlib.h
 -
 ../include/rtv1.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/src/ray.c
+/Users/ilukaino/Documents/code/c/git/rtv1/src/ray.c
 ../include/ray.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/ray.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/ray.h
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/src/rednder.c
+/Users/ilukaino/Documents/code/c/git/rtv1/src/rednder.c
 ../include/rtv1.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/src/sdl.c
+/Users/ilukaino/Documents/code/c/git/rtv1/src/sdl.c
 ../include/rtv1.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
-/Users/ilukaino/Documents/code/c++/clion/rtv1/src/vec.c
+/Users/ilukaino/Documents/code/c/git/rtv1/src/vec.c
 ../include/vec.h
-/Users/ilukaino/Documents/code/c++/clion/rtv1/include/vec.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
 
 /Users/ilukaino/Library/Frameworks/SDL2.framework/Versions/A/Headers/SDL.h
 SDL_main.h

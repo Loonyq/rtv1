@@ -6,9 +6,8 @@ int main() {
 
 	data = (t_main *)malloc(sizeof(t_main));
 
-	initSdl(&data);
-//	raySender(&data);
-//	sdlLoop(&data);
+//	initSdlSurface(data);
+	initSdlRender(data);
 	SDL_Quit();
 	return 0;
 }
