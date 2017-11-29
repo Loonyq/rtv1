@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtv1.dir/src/rednder.c.o"
   "CMakeFiles/rtv1.dir/src/vec.c.o"
   "CMakeFiles/rtv1.dir/src/ray.c.o"
+  "CMakeFiles/rtv1.dir/src/sphere.c.o"
   "rtv1.pdb"
   "rtv1"
 )

@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ilukaino/Documents/code/c/git/rtv1/include/cam.h">
+			<Option target="rtv1"/>
+		</Unit>
 		<Unit filename="/Users/ilukaino/Documents/code/c/git/rtv1/include/ray.h">
 			<Option target="rtv1"/>
 		</Unit>
@@ -106,6 +109,9 @@
 			<Option target="rtv1"/>
 		</Unit>
 		<Unit filename="/Users/ilukaino/Documents/code/c/git/rtv1/src/sdl.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/Users/ilukaino/Documents/code/c/git/rtv1/src/sphere.c">
 			<Option target="rtv1"/>
 		</Unit>
 		<Unit filename="/Users/ilukaino/Documents/code/c/git/rtv1/src/vec.c">

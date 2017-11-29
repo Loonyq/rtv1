@@ -1,9 +1,13 @@
 #ifndef RTV1_RTV1_H
 # define RTV1_RTV1_H
 
-#include "vec.h"
-#include "../libft/libft.h"
+//#include "../libft/libft.h"
 #include "/Users/ilukaino/Library/Frameworks/SDL2.framework/Versions/A/Headers/SDL.h"
+#include <math.h>
+#include "vec.h"
+#include "ray.h"
+#include "sphere.h"
+#include "cam.h"
 
 #define W 800
 #define H 600

@@ -231,6 +231,33 @@ src/sdl.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/sdl.c.s
 .PHONY : src/sdl.c.s
 
+src/sphere.o: src/sphere.c.o
+
+.PHONY : src/sphere.o
+
+# target to build an object file
+src/sphere.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/sphere.c.o
+.PHONY : src/sphere.c.o
+
+src/sphere.i: src/sphere.c.i
+
+.PHONY : src/sphere.i
+
+# target to preprocess a source file
+src/sphere.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/sphere.c.i
+.PHONY : src/sphere.c.i
+
+src/sphere.s: src/sphere.c.s
+
+.PHONY : src/sphere.s
+
+# target to generate assembly for a file
+src/sphere.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/sphere.c.s
+.PHONY : src/sphere.c.s
+
 src/vec.o: src/vec.c.o
 
 .PHONY : src/vec.o
@@ -279,6 +306,9 @@ help:
 	@echo "... src/sdl.o"
 	@echo "... src/sdl.i"
 	@echo "... src/sdl.s"
+	@echo "... src/sphere.o"
+	@echo "... src/sphere.i"
+	@echo "... src/sphere.s"
 	@echo "... src/vec.o"
 	@echo "... src/vec.i"
 	@echo "... src/vec.s"
