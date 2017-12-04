@@ -1,10 +1,12 @@
 #include "../include/rtv1.h"
 
-void	initVec(t_vec *vec, double a, double b, double c)
+t_vec	initVec(double a, double b, double c)
 {
-	vec->x = a;
-	vec->y = b;
-	vec->z = c;
+	t_vec 	vec;
+	vec.x = a;
+	vec.y = b;
+	vec.z = c;
+	return vec;
 }
 
 t_vec	subtractionVec(t_vec a, t_vec b)
@@ -35,3 +37,10 @@ double	dot(t_vec a, t_vec b)
 	return dot;
 }
 
+t_vec 	normalize(t_vec vec)
+{
+	t_vec ret;
+
+	double mg = sqrt(vec.x * vec.x + vec.y * vec.y + vec.z * vec.z);
+	return (t_vec){vec.x / mg,vec.y / mg,vec.z / mg};
+}

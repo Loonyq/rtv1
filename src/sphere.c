@@ -33,3 +33,8 @@ int 			intersectSphere(t_sphere *sphere, t_ray *ray, double *t)
 		return 1;
 	}
 }
+
+t_vec 			getNormal(const t_vec *pi, t_sphere sphere)
+{
+	return (t_vec){(pi->x - sphere.center.x) / sphere.radius, (pi->y - sphere.center.y) / sphere.radius, (pi->z - sphere.center.y) / sphere.radius};
+}

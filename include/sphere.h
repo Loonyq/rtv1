@@ -11,4 +11,5 @@ typedef struct	s_sphere
 
 void			initSphere(t_sphere *sphere, t_vec i, double r);
 int 			intersectSphere(t_sphere *sphere, t_ray *ray, double *t);
+t_vec 			getNormal(const t_vec *pi, t_sphere sphere);
 #endif

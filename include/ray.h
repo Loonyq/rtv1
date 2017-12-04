@@ -9,6 +9,6 @@ typedef struct	s_ray
 	t_vec		direction;
 }				t_ray;
 
-void			initRay(t_ray *ray, t_vec i, t_vec j);
+t_ray			initRay(t_vec i, t_vec j);
 
 #endif

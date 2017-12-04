@@ -1,7 +1,10 @@
 #include "../include/rtv1.h"
 
-void			initRay(t_ray *ray, t_vec i, t_vec j)
+t_ray			initRay(t_vec i, t_vec j)
 {
-	ray->origin = i;
-	ray->direction = j;
+	t_ray	ray;
+
+	ray.origin = i;
+	ray.direction = j;
+	return (ray);
 }
