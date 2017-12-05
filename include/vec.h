@@ -11,7 +11,7 @@ typedef struct	s_vec
 //	void		(*initVec)(struct s_vec**, double, double, double);
 }				t_vec;
 
-t_vec			initVec(double a, double b, double c);
+t_vec			*initVec(double a, double b, double c);
 t_vec			subtractionVec(t_vec a, t_vec b);
 t_vec			additionVec(t_vec a, t_vec b);
 double			dot(t_vec a, t_vec b);

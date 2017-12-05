@@ -6,41 +6,43 @@
 
 #IncludeRegexTransform: 
 
+/Users/ilukaino/Documents/code/c/git/rtv1/include/cam.h
+rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
+
+/Users/ilukaino/Documents/code/c/git/rtv1/include/color.h
+
 /Users/ilukaino/Documents/code/c/git/rtv1/include/ray.h
-vec.h
-/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
+rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
 /Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
-vec.h
-/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
-../libft/libft.h
-/Users/ilukaino/Documents/code/c/git/rtv1/libft/libft.h
 /Users/ilukaino/Library/Frameworks/SDL2.framework/Versions/A/Headers/SDL.h
 -
+math.h
+-
+vec.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
+ray.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/ray.h
+sphere.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/sphere.h
+cam.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/cam.h
+color.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/color.h
+
+/Users/ilukaino/Documents/code/c/git/rtv1/include/sphere.h
+rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
 /Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
+rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
-/Users/ilukaino/Documents/code/c/git/rtv1/libft/get_next_line.h
-stdio.h
--
-unistd.h
--
-fcntl.h
--
-stdlib.h
--
-libft.h
-/Users/ilukaino/Documents/code/c/git/rtv1/libft/libft.h
-
-/Users/ilukaino/Documents/code/c/git/rtv1/libft/libft.h
-string.h
--
-stdlib.h
--
-unistd.h
--
-get_next_line.h
-/Users/ilukaino/Documents/code/c/git/rtv1/libft/get_next_line.h
+/Users/ilukaino/Documents/code/c/git/rtv1/src/color.c
+../include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
 /Users/ilukaino/Documents/code/c/git/rtv1/src/main.c
 stdlib.h
@@ -49,8 +51,8 @@ stdlib.h
 /Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
 /Users/ilukaino/Documents/code/c/git/rtv1/src/ray.c
-../include/ray.h
-/Users/ilukaino/Documents/code/c/git/rtv1/include/ray.h
+../include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
 /Users/ilukaino/Documents/code/c/git/rtv1/src/rednder.c
 ../include/rtv1.h
@@ -60,9 +62,13 @@ stdlib.h
 ../include/rtv1.h
 /Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
+/Users/ilukaino/Documents/code/c/git/rtv1/src/sphere.c
+../include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
+
 /Users/ilukaino/Documents/code/c/git/rtv1/src/vec.c
-../include/vec.h
-/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h
+../include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
 /Users/ilukaino/Library/Frameworks/SDL2.framework/Versions/A/Headers/SDL.h
 SDL_main.h

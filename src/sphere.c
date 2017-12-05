@@ -1,9 +1,13 @@
 #include "../include/rtv1.h"
 
-void			initSphere(t_sphere *sphere, t_vec i, double r)
+t_sphere		*initSphere(t_vec i, double r)
 {
+	t_sphere	*sphere;
+
+	sphere = (t_sphere *)malloc(sizeof(t_sphere));
 	sphere->center = i;
 	sphere->radius = r;
+	return sphere;
 }
 
 int 			intersectSphere(t_sphere *sphere, t_ray *ray, double *t)

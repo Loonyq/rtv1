@@ -8,6 +8,7 @@
 #include "ray.h"
 #include "sphere.h"
 #include "cam.h"
+#include "color.h"
 
 #define W 800
 #define H 600

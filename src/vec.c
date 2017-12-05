@@ -1,11 +1,13 @@
 #include "../include/rtv1.h"
 
-t_vec	initVec(double a, double b, double c)
+t_vec	*initVec(double a, double b, double c)
 {
-	t_vec 	vec;
-	vec.x = a;
-	vec.y = b;
-	vec.z = c;
+	t_vec 	*vec;
+
+	vec = (t_vec *)malloc(sizeof(t_vec));
+	vec->x = a;
+	vec->y = b;
+	vec->z = c;
 	return vec;
 }
 
@@ -39,8 +41,6 @@ double	dot(t_vec a, t_vec b)
 
 t_vec 	normalize(t_vec vec)
 {
-	t_vec ret;
-
 	double mg = sqrt(vec.x * vec.x + vec.y * vec.y + vec.z * vec.z);
 	return (t_vec){vec.x / mg,vec.y / mg,vec.z / mg};
 }
