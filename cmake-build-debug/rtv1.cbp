@@ -102,6 +102,9 @@
 		<Unit filename="/Users/ilukaino/Documents/code/c/git/rtv1/include/vec.h">
 			<Option target="rtv1"/>
 		</Unit>
+		<Unit filename="/Users/ilukaino/Documents/code/c/git/rtv1/src/cam.c">
+			<Option target="rtv1"/>
+		</Unit>
 		<Unit filename="/Users/ilukaino/Documents/code/c/git/rtv1/src/color.c">
 			<Option target="rtv1"/>
 		</Unit>

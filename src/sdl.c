@@ -51,8 +51,9 @@ int 	initSdlRender(t_main *data)
 	raySender(data);
 	data->sdl.texture = SDL_CreateTextureFromSurface(data->sdl.renderer, data->sdl.data_sf);
 //	SDL_LoadBMP("test.bmp");
-	SDL_RenderClear(data->sdl.renderer);
+//	SDL_RenderClear(data->sdl.renderer);
 	while (1) {
+		SDL_RenderCopy(data->sdl.renderer, data->sdl.texture, NULL, NULL);
 		SDL_RenderPresent(data->sdl.renderer);
 		SDL_RenderClear(data->sdl.renderer);
 		SDL_PollEvent(&event);
@@ -61,7 +62,6 @@ int 	initSdlRender(t_main *data)
 		const Uint8 *state = SDL_GetKeyboardState(NULL);
 		if (state[SDL_SCANCODE_LCTRL] && state[SDL_SCANCODE_LALT] && state[SDL_SCANCODE_DELETE])
 			break ;
-		SDL_RenderCopy(data->sdl.renderer, data->sdl.texture, NULL, NULL);
 	}
 	SDL_DestroyWindow(data->sdl.screen);
 	return (0);

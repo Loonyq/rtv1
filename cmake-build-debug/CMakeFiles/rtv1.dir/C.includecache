@@ -40,6 +40,10 @@ rtv1.h
 rtv1.h
 /Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
 
+/Users/ilukaino/Documents/code/c/git/rtv1/src/cam.c
+../include/rtv1.h
+/Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h
+
 /Users/ilukaino/Documents/code/c/git/rtv1/src/color.c
 ../include/rtv1.h
 /Users/ilukaino/Documents/code/c/git/rtv1/include/rtv1.h

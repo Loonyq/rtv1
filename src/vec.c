@@ -11,36 +11,40 @@ t_vec	*initVec(double a, double b, double c)
 	return vec;
 }
 
-t_vec	subtractionVec(t_vec a, t_vec b)
+t_vec	*subtractionVec(t_vec *a, t_vec *b)
 {
-	t_vec	result;
+	t_vec	*result;
 
-	result.x = a.x - b.x;
-	result.y = a.y - b.y;
-	result.z = a.z - b.z;
+	result = (t_vec *)malloc(sizeof(t_vec));
+	result->x = a->x - b->x;
+	result->y = a->y - b->y;
+	result->z = a->z - b->z;
 	return result;
 }
 
-t_vec	additionVec(t_vec a, t_vec b)
+t_vec	*additionVec(t_vec *a, t_vec *b)
 {
-	t_vec	result;
+	t_vec	*result;
 
-	result.x = a.x + b.x;
-	result.y = a.y + b.y;
-	result.z = a.z + b.z;
+	result = (t_vec *)malloc(sizeof(t_vec));
+	result->x = a->x + b->x;
+	result->y = a->y + b->y;
+	result->z = a->z + b->z;
 	return result;
 }
 
-double	dot(t_vec a, t_vec b)
+double	dot(t_vec *a, t_vec *b)
 {
 	double	dot;
 
-	dot = (a.x * b.x) + (a.y * b.y) + (a.z * b.z);
+	dot = (a->x * b->x) + (a->y * b->y) + (a->z * b->z);
 	return dot;
 }
 
-t_vec 	normalize(t_vec vec)
+void 	normalize(t_vec *vec)
 {
-	double mg = sqrt(vec.x * vec.x + vec.y * vec.y + vec.z * vec.z);
-	return (t_vec){vec.x / mg,vec.y / mg,vec.z / mg};
+	double mg = sqrt(vec->x * vec->x + vec->y * vec->y + vec->z * vec->z);
+	vec->x /= mg;
+	vec->y /= mg;
+	vec->z /= mg;
 }

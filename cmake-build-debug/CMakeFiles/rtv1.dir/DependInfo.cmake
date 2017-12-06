@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/ilukaino/Documents/code/c/git/rtv1/src/cam.c" "/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/cam.c.o"
   "/Users/ilukaino/Documents/code/c/git/rtv1/src/color.c" "/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/color.c.o"
   "/Users/ilukaino/Documents/code/c/git/rtv1/src/main.c" "/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/main.c.o"
   "/Users/ilukaino/Documents/code/c/git/rtv1/src/ray.c" "/Users/ilukaino/Documents/code/c/git/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/ray.c.o"

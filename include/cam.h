@@ -5,7 +5,9 @@
 
 typedef struct		s_cam
 {
-	t_ray			ray;
+	t_ray			*ray;
 }					t_cam;
+
+t_cam		*initCam(t_vec *o, t_vec *d);
 
 #endif

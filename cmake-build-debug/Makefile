@@ -123,6 +123,33 @@ rtv1/fast:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/build
 .PHONY : rtv1/fast
 
+src/cam.o: src/cam.c.o
+
+.PHONY : src/cam.o
+
+# target to build an object file
+src/cam.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/cam.c.o
+.PHONY : src/cam.c.o
+
+src/cam.i: src/cam.c.i
+
+.PHONY : src/cam.i
+
+# target to preprocess a source file
+src/cam.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/cam.c.i
+.PHONY : src/cam.c.i
+
+src/cam.s: src/cam.c.s
+
+.PHONY : src/cam.s
+
+# target to generate assembly for a file
+src/cam.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/cam.c.s
+.PHONY : src/cam.c.s
+
 src/color.o: src/color.c.o
 
 .PHONY : src/color.o
@@ -321,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... rtv1"
+	@echo "... src/cam.o"
+	@echo "... src/cam.i"
+	@echo "... src/cam.s"
 	@echo "... src/color.o"
 	@echo "... src/color.i"
 	@echo "... src/color.s"

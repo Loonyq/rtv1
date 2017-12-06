@@ -1,6 +1,6 @@
 #include "../include/rtv1.h"
 
-t_sphere		*initSphere(t_vec i, double r)
+t_sphere		*initSphere(t_vec *i, double r)
 {
 	t_sphere	*sphere;
 
@@ -12,9 +12,9 @@ t_sphere		*initSphere(t_vec i, double r)
 
 int 			intersectSphere(t_sphere *sphere, t_ray *ray, double *t)
 {
-	t_vec	o;
-	t_vec	d;
-	t_vec	oc;
+	t_vec	*o;
+	t_vec	*d;
+	t_vec	*oc;
 	double 	b;
 	double 	c;
 	double 	disc;
@@ -38,7 +38,13 @@ int 			intersectSphere(t_sphere *sphere, t_ray *ray, double *t)
 	}
 }
 
-t_vec 			getNormal(const t_vec *pi, t_sphere sphere)
+t_vec 			*getNormal(const t_vec *pi, t_sphere *sphere)
 {
-	return (t_vec){(pi->x - sphere.center.x) / sphere.radius, (pi->y - sphere.center.y) / sphere.radius, (pi->z - sphere.center.y) / sphere.radius};
+	t_vec *normal;
+
+	normal = (t_vec *)malloc(sizeof(t_vec));
+	normal->x = (pi->x - sphere->center->x) / sphere->radius;
+	normal->y = (pi->y - sphere->center->y) / sphere->radius;
+	normal->z = (pi->z - sphere->center->z) / sphere->radius;
+	return normal;
 }
